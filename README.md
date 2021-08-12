@@ -24,12 +24,16 @@ darket 训练yolo以及部署全部流程
 
 11.压缩source,上传到云服务器
 
-12.加压darknet.zip,修改相应的makefile cfg/voc.daa cfg/yolov3-tint.cfg data/voc.names(具体修改方法https://blog.csdn.net/zhou4411781/article/details/105112058)
+12.加压darknet.zip,修改相应的makefile cfg/voc.daa cfg/yolov3-tint.cfg data/voc.names具体修改方法https://blog.csdn.net/zhou4411781/article/details/105112058
 
 13.解压source,使darknet目录下有VOCdevkit/VOC2007/xxx 和 voc_label.py 
 
 14.运行voc_label.py生成darknet真正需要的txt文件
 
 15.训练,计算map  https://github.com/AlexeyAB/darknet#how-to-train-tiny-yolo-to-detect-your-custom-objects
+
+16.训练好的可以用run下面的whx_detect.py python调用darknet接口来实现实时检测,这里的whx_detect是做跑在nano上的,做小车用，调用了串口，不需要就把串口去掉即可，也可以用opencvDnn文件夹下的     cv_test.py用opencv的dnn模块加载darknet模型，但这里只是cpu版本，gpu版本要
+    安装cuda，然后改net.setPreferableBackend(cv.dnn.DNN_BACKEND_OPENCV)，net.setPreferableTarget(cv.dnn.DNN_TARGET_CPU）这两行即可
+
 
 
