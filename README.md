@@ -1,6 +1,6 @@
 # darknet-yolo
 
-darket 训练yolo以及部署全部流程
+无原创，全搬运
 
 1.把筛选好的图片放在All_picture文件夹
 
