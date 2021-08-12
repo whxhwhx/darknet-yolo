@@ -24,7 +24,7 @@
 
 11.压缩source,上传到云服务器
 
-12.加压darknet.zip,修改相应的makefile cfg/voc.daa cfg/yolov3-tint.cfg data/voc.names具体修改方法https://blog.csdn.net/zhou4411781/article/details/105112058
+12.解压darknet.zip,修改相应的makefile cfg/voc.daa cfg/yolov3-tint.cfg data/voc.names具体修改方法https://blog.csdn.net/zhou4411781/article/details/105112058
 
 13.解压source,使darknet目录下有VOCdevkit/VOC2007/xxx 和 voc_label.py 
 
