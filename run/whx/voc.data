@@ -1,0 +1,6 @@
+classes= 5
+train  = /home/ubuntu/train.txt
+valid  = /home/ubuntu/2007_test.txt
+names = /home/lada/darknet-1/whx/data/voc.names
+backup = backup
+
