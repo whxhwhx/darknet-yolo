@@ -1,7 +1,5 @@
 # darknet-yolo
 
-无原创，全搬运
-
 1.把筛选好的图片放在All_picture文件夹
 
 2.运行pic_rename.py,在rename_imgs文件夹下会得到排序好的voc格式的文件名
